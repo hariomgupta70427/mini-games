@@ -6,7 +6,7 @@
   }
   body {
     height: 100vh;
-    background: linear-gradient(135deg, #8052ec, #d161ff);
+    background: linear-gradient(169deg, #d0be48, #301930);
   }
   html {
     font-size: 16px;
@@ -31,11 +31,12 @@
     border: none;
     border-radius: 8px;
     font-size: 12vmin;
-    color: #d161ff;
+    color: #0a5f7a;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   }
   #restart {
-    font-size: 1.3em;
+    cursor: pointer;
+    font-size: 3.3em;
     padding: 1em;
     border-radius: 8px;
     background-color: #0a0027;
@@ -46,7 +47,7 @@
     display: block;
   }
   .popup {
-    background: linear-gradient(135deg, #8052ec, #d161ff);
+    background: linear-gradient(135deg, #2d2938, #323692);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -59,6 +60,7 @@
     font-size: 12vmin;
   }
   #new-game {
+    cursor: pointer;
     font-size: 0.6em;
     padding: 0.5em 1em;
     background-color: #0a0027;
